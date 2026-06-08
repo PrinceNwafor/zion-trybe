@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zion Trybe Lagos — God's Dwelling Place. A place where FAITH meets FAMILY. Join Pastor Yomi Hassan & Co-Pastor Tosin Hassan every Sunday at 8:30am in Fadeyi, Lagos." />
+  <meta property="og:title" content="Zion Trybe — God's Dwelling Place" />
+  <meta property="og:description" content="A place where faith meets family. Come as you are and encounter God." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#1A1A1A" />
+  <title>Zion Trybe — God's Dwelling Place | Lagos</title>
+  <link rel="icon" type="image/jpeg" href="images/logo.jpg" />
+  <link rel="apple-touch-icon" href="images/logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="nav nav--transparent" id="main-nav" data-transparent="true">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.jpg" alt="Zion Trybe logo" class="nav__logo-img" />
+        <div>
+          <div class="nav__logo-text">Zion Trybe</div>
+          <div class="nav__logo-sub">God's Dwelling Place</div>
+        </div>
+      </a>
+      <ul class="nav__links">
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="sermons.html" class="nav__link">Sermons</a></li>
+        <li><a href="ministries.html" class="nav__link">Ministries</a></li>
+        <li><a href="events.html" class="nav__link">Events</a></li>
+        <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+        <li><a href="find-help.html" class="nav__link nav__link--find-help">Find Help</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="give.html" class="btn btn--secondary btn--sm">Give</a>
+        <a href="plan-visit.html" class="btn btn--primary btn--sm">Plan a Visit</a>
+        <button class="nav__menu-btn" id="menu-btn" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-nav" id="mobile-nav">
+    <button class="mobile-nav__close" id="mobile-nav-close">✕</button>
+    <ul class="mobile-nav__links">
+      <li><a href="index.html" class="mobile-nav__link">Home</a></li>
+      <li><a href="about.html" class="mobile-nav__link">About</a></li>
+      <li><a href="sermons.html" class="mobile-nav__link">Sermons</a></li>
+      <li><a href="ministries.html" class="mobile-nav__link">Ministries</a></li>
+      <li><a href="events.html" class="mobile-nav__link">Events</a></li>
+      <li><a href="gallery.html" class="mobile-nav__link">Gallery</a></li>
+      <li><a href="find-help.html" class="mobile-nav__link mobile-nav__link--find-help">Find Help</a></li>
+      <li><a href="plan-visit.html" class="mobile-nav__link">Plan a Visit</a></li>
+      <li><a href="give.html" class="mobile-nav__link">Give</a></li>
+      <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ===================== VIDEO HERO ===================== -->
+    <section class="hero">
+      <div class="hero__bg hero__bg--video">
+        <video class="hero__video" autoplay muted loop playsinline poster="images/pastor-3.webp">
+          <source src="videos/thanksgiving.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <button class="hero__sound-btn" id="hero-sound" aria-label="Toggle sound">
+        <svg data-sound-off viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 00-2.5-4v8a4.5 4.5 0 002.5-4z" opacity=".4"/><line x1="3" y1="3" x2="21" y2="21" stroke="#fff" stroke-width="2"/></svg>
+        <svg data-sound-on viewBox="0 0 24 24" style="display:none"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 00-2.5-4v8a4.5 4.5 0 002.5-4zM14 3.2v2.06a7 7 0 010 13.48v2.06A9 9 0 0014 3.2z"/></svg>
+      </button>
+
+      <div class="hero__content">
+        <span class="hero__label animate-fade-up">Welcome to God's Dwelling Place</span>
+        <h1 class="hero__title animate-fade-up animate-fade-up--delay-1">
+          Where Faith
+          <span>Meets Family.</span>
+        </h1>
+        <p class="hero__subtitle animate-fade-up animate-fade-up--delay-2">
+          Zion Trybe is a Spirit-filled family in the heart of Lagos. Come as you are —
+          encounter God, find belonging, and discover the purpose He placed in you.
+        </p>
+        <div class="hero__actions animate-fade-up animate-fade-up--delay-3">
+          <a href="plan-visit.html" class="btn btn--primary btn--lg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l9-9 9 9M5 10v10a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1V10"/></svg>
+            Plan Your Visit
+          </a>
+          <a href="sermons.html" class="btn btn--ghost btn--lg">Watch a Message</a>
+        </div>
+      </div>
+
+      <div class="service-bar" style="position:absolute; bottom:0; left:0; right:0;">
+        <div class="service-bar__inner">
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>Sundays:</strong> 8:30am WAT</span>
+          </div>
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>Midweek:</strong> Wed 6:00pm</span>
+          </div>
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>20 Adewusi St,</strong> Fadeyi, Lagos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WELCOME ===================== -->
+    <section class="section section--warm">
+      <div class="container">
+        <div class="split-2" style="display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center;">
+          <div class="reveal">
+            <span class="section-header__label">Our Heart</span>
+            <h2 style="margin-bottom:24px;">A Family You Can<br>Truly Belong To</h2>
+            <p class="text-lead" style="margin-bottom:24px;">
+              Whether you're searching, hurting, celebrating, or simply curious — there is room for
+              you at Zion Trybe. This is God's dwelling place, and you are welcome here.
+            </p>
+            <p style="margin-bottom:32px;">
+              We are a people passionate about the presence of God, raised to live out our faith
+              boldly and to love one another like family. No perfect people required — just open hearts.
+            </p>
+            <div style="display:flex; gap:16px; flex-wrap:wrap;">
+              <a href="about.html" class="btn btn--primary">Our Story</a>
+              <a href="plan-visit.html" class="btn btn--secondary">Visit This Sunday</a>
+            </div>
+          </div>
+
+          <div class="reveal stack-visual" style="position:relative; height:480px;">
+            <div style="position:absolute; top:0; right:0; width:80%; height:380px; border-radius:24px; overflow:hidden; box-shadow:0 20px 60px rgba(0,0,0,0.16);">
+              <img src="images/elezer-1.webp" alt="Zion Trybe family in worship" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;" />
+            </div>
+            <div class="stack-accent flame-bg" style="position:absolute; bottom:0; left:0; width:55%; height:220px; border-radius:20px; display:flex; flex-direction:column; align-items:flex-start; justify-content:flex-end; padding:28px; box-shadow:0 12px 40px rgba(226,35,26,0.3);">
+              <div style="font-family:'Playfair Display',serif; font-size:40px; font-weight:700; color:white; line-height:1;">FAITH<br>+ FAMILY</div>
+              <div style="font-size:14px; color:rgba(255,255,255,0.9); margin-top:8px;">The two things we<br>do best, together.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MEET THE PASTORS ===================== -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">Your Pastors</span>
+          <h2 class="section-header__title">Meet Pastor Yomi &amp; Pastor Tosin</h2>
+          <p class="section-header__desc">Leading Zion Trybe with a heart for God's presence, sound teaching, and a genuine love for people.</p>
+        </div>
+        <div class="split-2" style="display:grid; grid-template-columns:1fr 1.1fr; gap:64px; align-items:center;">
+          <div class="reveal">
+            <img src="images/pastor-3.webp" alt="Pastor Yomi Hassan, Lead Pastor of Zion Trybe" class="pastor-photo" />
+          </div>
+          <div class="reveal">
+            <h3 style="margin-bottom:8px;">Pastor Yomi Hassan</h3>
+            <div class="text-label" style="margin-bottom:20px;">Lead Pastor</div>
+            <p style="margin-bottom:20px;">
+              Pastor Yomi Hassan is a passionate teacher of the Word and a prophetic voice raising a
+              generation that carries the presence of God. His ministry blends depth, fire, and warmth —
+              helping everyday people encounter a real God who is <em>El-Ezer</em>, our ever-present Help.
+            </p>
+            <p style="margin-bottom:24px;">
+              He serves alongside his wife and partner in ministry, <strong>Co-Pastor Tosin Yomi Hassan</strong>,
+              whose grace and care shape Zion Trybe into the loving family it is today.
+            </p>
+            <a href="about.html" class="btn btn--secondary">Read Our Full Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FIND HELP TEASER ===================== -->
+    <section class="section" style="background:linear-gradient(160deg, #0C0C0C 0%, #1A1A1A 100%); padding:80px 0;">
+      <div class="container">
+        <div style="text-align:center; max-width:640px; margin:0 auto 56px;">
+          <span class="section-header__label" style="color:var(--color-accent-light);">A Different Kind of Help</span>
+          <h2 style="color:white; margin-bottom:20px;">How Are You Feeling Today?</h2>
+          <p style="color:rgba(255,255,255,0.65); font-size:18px; line-height:1.7;">
+            You don't have to carry it alone. Find a word, a prayer, and a person — for exactly what you're walking through right now.
+          </p>
+        </div>
+        <div class="grid grid-3" style="margin-bottom:48px;">
+          <a href="find-help.html#hurting" class="help-card" style="text-decoration:none;">
+            <div class="help-card__bg" style="background:linear-gradient(135deg,#2a0f0d 0%,#5a1c16 100%);"></div>
+            <div class="help-card__overlay"></div>
+            <div class="help-card__content">
+              <span class="help-card__icon">🔥</span>
+              <h3 class="help-card__title">When You're Hurting</h3>
+              <p class="help-card__sub">Comfort for your pain</p>
+              <div class="help-card__arrow"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+            </div>
+          </a>
+          <a href="find-help.html#overwhelmed" class="help-card" style="text-decoration:none;">
+            <div class="help-card__bg" style="background:linear-gradient(135deg,#3a1606 0%,#7a3410 100%);"></div>
+            <div class="help-card__overlay"></div>
+            <div class="help-card__content">
+              <span class="help-card__icon">🌊</span>
+              <h3 class="help-card__title">When Your Mind Is Full</h3>
+              <p class="help-card__sub">Rest for an anxious heart</p>
+              <div class="help-card__arrow"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+            </div>
+          </a>
+          <a href="find-help.html#lost" class="help-card" style="text-decoration:none;">
+            <div class="help-card__bg" style="background:linear-gradient(135deg,#2b2b2b 0%,#4a4a4a 100%);"></div>
+            <div class="help-card__overlay"></div>
+            <div class="help-card__content">
+              <span class="help-card__icon">🌅</span>
+              <h3 class="help-card__title">When You Feel Lost</h3>
+              <p class="help-card__sub">Direction for the wandering soul</p>
+              <div class="help-card__arrow"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+            </div>
+          </a>
+        </div>
+        <div style="text-align:center;"><a href="find-help.html" class="btn btn--white btn--lg">See All Categories</a></div>
+      </div>
+    </section>
+
+    <!-- ===================== LATEST MESSAGES ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">This Season's Messages</span>
+          <h2 class="section-header__title">Words That Meet You<br>Where You Are</h2>
+          <p class="section-header__desc">Missed a Sunday? Catch up on the messages God is using to build our family.</p>
+        </div>
+        <div class="grid grid-3 reveal">
+          <div class="sermon-card">
+            <div class="sermon-card__thumb">
+              <img src="images/pastor-1.webp" alt="El-Ezer: God My Help" style="width:100%;height:100%;object-fit:cover;" />
+              <div class="sermon-card__play">
+                <div class="sermon-card__play-btn" data-video="dQw4w9WgXcQ" data-platform="youtube" style="cursor:pointer;">
+                  <svg width="18" height="18" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="sermon-card__body">
+              <div class="sermon-card__series">Series: El-Ezer</div>
+              <div class="sermon-card__title">God My Help (Exodus 18:4)</div>
+              <div class="sermon-card__speaker">Pastor Yomi Hassan</div>
+            </div>
+          </div>
+          <div class="sermon-card">
+            <div class="sermon-card__thumb">
+              <img src="images/pastor-5.webp" alt="Season of Harvest" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;" />
+              <div class="sermon-card__play">
+                <div class="sermon-card__play-btn" data-video="dQw4w9WgXcQ" data-platform="youtube" style="cursor:pointer;">
+                  <svg width="18" height="18" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="sermon-card__body">
+              <div class="sermon-card__series">Series: Season of Harvest</div>
+              <div class="sermon-card__title">Carrying the Presence</div>
+              <div class="sermon-card__speaker">Pastor Yomi Hassan</div>
+            </div>
+          </div>
+          <div class="sermon-card">
+            <div class="sermon-card__thumb">
+              <img src="images/pastor-6.webp" alt="Extraordinary Thanksgiving" style="width:100%;height:100%;object-fit:cover;object-position:center 12%;" />
+              <div class="sermon-card__play">
+                <div class="sermon-card__play-btn" data-video="dQw4w9WgXcQ" data-platform="youtube" style="cursor:pointer;">
+                  <svg width="18" height="18" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="sermon-card__body">
+              <div class="sermon-card__series">Series: Thanksgiving</div>
+              <div class="sermon-card__title">Too Faithful to Forget</div>
+              <div class="sermon-card__speaker">Pastor Yomi Hassan</div>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; margin-top:40px;" class="reveal">
+          <a href="sermons.html" class="btn btn--secondary btn--lg">View All Messages</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY PREVIEW ===================== -->
+    <section class="section section--warm">
+      <div class="container">
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:16px; margin-bottom:40px;" class="reveal">
+          <div>
+            <span class="section-header__label">Life at Zion Trybe</span>
+            <h2>Moments of Faith &amp; Family</h2>
+          </div>
+          <a href="gallery.html" class="btn btn--secondary">View Full Gallery</a>
+        </div>
+        <div class="gallery-grid reveal">
+          <div class="gallery-item gallery-item--tall"><img src="images/elezer-1.webp" alt="Worship at Zion Trybe" /><div class="gallery-item__overlay"><span class="gallery-item__caption">Lost in worship</span></div></div>
+          <div class="gallery-item"><img src="images/harvest-1.jpg" alt="Taking notes during service" /><div class="gallery-item__overlay"><span class="gallery-item__caption">Hungry for the Word</span></div></div>
+          <div class="gallery-item"><img src="images/harvest-4.jpg" alt="Praise at Season of Harvest" /><div class="gallery-item__overlay"><span class="gallery-item__caption">Season of Harvest</span></div></div>
+          <div class="gallery-item"><img src="images/harvest-2.jpg" alt="Congregation at Zion Trybe" /><div class="gallery-item__overlay"><span class="gallery-item__caption">Our family</span></div></div>
+          <div class="gallery-item gallery-item--tall"><img src="images/pastor-3.webp" alt="Pastor Yomi Hassan preaching" /><div class="gallery-item__overlay"><span class="gallery-item__caption">The Word goes forth</span></div></div>
+          <div class="gallery-item"><img src="images/elezer-2.webp" alt="Heartfelt worship" /><div class="gallery-item__overlay"><span class="gallery-item__caption">Thanksgiving</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIES ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">Testimonies</span>
+          <h2 class="section-header__title">Lives Changed,<br>Faith Strengthened</h2>
+        </div>
+        <div class="grid grid-3 reveal">
+          <div class="testimonial">
+            <p class="testimonial__text">"I came in just looking for a church, but I found a family. Zion Trybe gave me a place to belong and a faith that finally feels alive."</p>
+            <div class="testimonial__author"><div class="testimonial__avatar-placeholder">🔥</div><div><div class="testimonial__name">Adaeze N.</div><div class="testimonial__role">Member</div></div></div>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial__text">"The El-Ezer series met me at my lowest. I learned that God truly is my present help. I have not been the same since that Sunday."</p>
+            <div class="testimonial__author"><div class="testimonial__avatar-placeholder">🙌</div><div><div class="testimonial__name">Emeka O.</div><div class="testimonial__role">Member</div></div></div>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial__text">"Pastor Yomi and Pastor Tosin genuinely care. This isn't religion — it's relationship. My whole family looks forward to Sunday now."</p>
+            <div class="testimonial__author"><div class="testimonial__avatar-placeholder">❤️</div><div><div class="testimonial__name">The Bankole Family</div><div class="testimonial__role">Members</div></div></div>
+          </div>
+        </div>
+        <div style="text-align:center; margin-top:36px;" class="reveal">
+          <a href="contact.html#testimony" class="btn btn--secondary">Share Your Testimony</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== STATS ===================== -->
+    <section class="section" style="background:var(--color-primary); padding:64px 0;">
+      <div class="container">
+        <div class="grid grid-4">
+          <div class="stat-card reveal"><div class="stat-card__number" data-count="8" data-suffix=":30">8:30</div><div class="stat-card__label" style="color:rgba(255,255,255,0.65);">Sunday Start (am)</div></div>
+          <div class="stat-card reveal"><div class="stat-card__number" data-count="1" data-suffix="">1</div><div class="stat-card__label" style="color:rgba(255,255,255,0.65);">Loving Family</div></div>
+          <div class="stat-card reveal"><div class="stat-card__number" data-count="6" data-suffix="+">6+</div><div class="stat-card__label" style="color:rgba(255,255,255,0.65);">Active Ministries</div></div>
+          <div class="stat-card reveal"><div class="stat-card__number" data-count="100" data-suffix="%">100%</div><div class="stat-card__label" style="color:rgba(255,255,255,0.65);">Welcome, Always</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SCRIPTURE BANNER ===================== -->
+    <div class="scripture-banner">
+      <p class="scripture-banner__text">"Surely the presence of the Lord is in this place."</p>
+      <p class="scripture-banner__ref">Genesis 28:16 · God's Dwelling Place</p>
+    </div>
+
+    <!-- ===================== PLAN VISIT CTA ===================== -->
+    <section class="section section--warm">
+      <div class="container">
+        <div class="split-2" style="display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center;">
+          <div class="reveal">
+            <span class="section-header__label">Your First Step</span>
+            <h2 style="margin-bottom:20px;">Ready to Visit<br>This Sunday?</h2>
+            <p style="font-size:18px; line-height:1.8; color:var(--color-muted); margin-bottom:32px;">
+              Walking into a new church can feel like a big step. Let us know you're coming — we'll have
+              someone ready to welcome you personally and help you feel right at home.
+            </p>
+            <ul style="display:flex; flex-direction:column; gap:12px; margin-bottom:32px;">
+              <li style="display:flex; gap:12px; align-items:center; font-size:15px; color:var(--color-text-soft);"><span style="width:24px;height:24px;background:var(--color-accent-subtle);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--color-accent);font-size:12px;flex-shrink:0;">✓</span>A friendly greeter waiting for you</li>
+              <li style="display:flex; gap:12px; align-items:center; font-size:15px; color:var(--color-text-soft);"><span style="width:24px;height:24px;background:var(--color-accent-subtle);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--color-accent);font-size:12px;flex-shrink:0;">✓</span>Children well cared for</li>
+              <li style="display:flex; gap:12px; align-items:center; font-size:15px; color:var(--color-text-soft);"><span style="width:24px;height:24px;background:var(--color-accent-subtle);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--color-accent);font-size:12px;flex-shrink:0;">✓</span>No pressure, just a warm welcome</li>
+            </ul>
+            <a href="plan-visit.html" class="btn btn--primary btn--lg">Plan My Visit</a>
+          </div>
+          <div class="reveal" style="background:white; border-radius:24px; padding:40px; box-shadow:var(--shadow-lg); border:1px solid var(--color-border-light);">
+            <h3 style="margin-bottom:8px;">I'm Planning to Visit</h3>
+            <p style="font-size:14px; color:var(--color-muted); margin-bottom:28px;">Tell us a little about yourself and we'll reach out before Sunday.</p>
+            <form id="visit-form">
+              <div class="form-row">
+                <div class="form-group"><label class="form-label" for="visit-fname">First Name</label><input type="text" id="visit-fname" class="form-input" placeholder="Your first name" required /></div>
+                <div class="form-group"><label class="form-label" for="visit-lname">Last Name</label><input type="text" id="visit-lname" class="form-input" placeholder="Your last name" /></div>
+              </div>
+              <div class="form-group"><label class="form-label" for="visit-email">Email Address</label><input type="email" id="visit-email" class="form-input" placeholder="you@email.com" required /></div>
+              <div class="form-group"><label class="form-label" for="visit-phone">Phone (optional)</label><input type="tel" id="visit-phone" class="form-input" placeholder="+234 ..." /></div>
+              <button type="submit" class="btn btn--primary btn--full btn--lg">I'm Coming! Send My Info →</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GIVE TEASER ===================== -->
+    <section class="section" style="background:var(--color-primary); padding:80px 0; text-align:center;">
+      <div class="container">
+        <div class="reveal" style="max-width:560px; margin:0 auto;">
+          <span class="section-header__label" style="color:var(--color-accent-light);">Generosity</span>
+          <h2 style="color:white; margin-bottom:20px;">Your Giving Builds God's House</h2>
+          <p style="color:rgba(255,255,255,0.65); font-size:18px; line-height:1.7; margin-bottom:36px;">
+            Every seed — large or small — helps us reach Lagos with the love of Jesus and build a
+            community where lives are transformed.
+          </p>
+          <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+            <a href="give.html" class="btn btn--white btn--lg">Give Online</a>
+            <a href="give.html#why" class="btn btn--ghost btn--lg">Why We Give</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img src="images/logo.jpg" alt="Zion Trybe" class="nav__logo-img" />
+            <span class="footer__logo-name">Zion Trybe</span>
+          </a>
+          <p class="footer__tagline">God's Dwelling Place — a place where faith meets family. Come as you are; encounter God; find your people.</p>
+          <div class="footer__service-times">
+            <div class="footer__service-time"><span>Sunday Service</span><span>8:30am WAT</span></div>
+            <div class="footer__service-time"><span>Midweek Encounter</span><span>Wed 6:00pm</span></div>
+            <div class="footer__service-time"><span>Trybe Altar (Prayer)</span><span>Fri 6:00pm</span></div>
+          </div>
+          <div class="footer__socials mt-6">
+            <a href="https://www.facebook.com/PastorYomiHassan/" target="_blank" rel="noopener" class="footer__social" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/ziontrybe/" target="_blank" rel="noopener" class="footer__social" aria-label="Instagram">ig</a>
+            <a href="https://www.youtube.com/@ziontrybe" target="_blank" rel="noopener" class="footer__social" aria-label="YouTube">yt</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Explore</h4>
+          <ul class="footer__links">
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="beliefs.html" class="footer__link">Our Beliefs</a></li>
+            <li><a href="ministries.html" class="footer__link">Ministries</a></li>
+            <li><a href="sermons.html" class="footer__link">Sermons</a></li>
+            <li><a href="gallery.html" class="footer__link">Gallery</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Connect</h4>
+          <ul class="footer__links">
+            <li><a href="plan-visit.html" class="footer__link">Plan a Visit</a></li>
+            <li><a href="give.html" class="footer__link">Give Online</a></li>
+            <li><a href="contact.html#prayer" class="footer__link">Prayer Request</a></li>
+            <li><a href="find-help.html" class="footer__link">Find Help</a></li>
+            <li><a href="contact.html" class="footer__link">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Find Us</h4>
+          <ul class="footer__links">
+            <li><span class="footer__link" style="cursor:default;color:rgba(255,255,255,0.55);">20 Adewusi Street, Fadeyi,<br>Ikorodu Road, Lagos, Nigeria</span></li>
+            <li style="margin-top:8px;"><a href="mailto:hello@ziontrybe.org" class="footer__link">hello@ziontrybe.org</a></li>
+            <li><a href="https://www.facebook.com/PastorYomiHassan/" target="_blank" rel="noopener" class="footer__link">Message us on Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Zion Trybe · God's Dwelling Place. All rights reserved.</p>
+        <div style="display:flex;gap:16px;"><a href="#" class="footer__link" style="font-size:13px;">Privacy</a><a href="#" class="footer__link" style="font-size:13px;">Terms</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float — replace number with the church's real WhatsApp line -->
+  <a href="https://wa.me/2348000000000" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
