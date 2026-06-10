@@ -382,9 +382,11 @@ blockquote {
   color: white;
 }
 
+/* 'Find Help' is styled identically to the other nav links (no highlight).
+   No color override here, so it inherits the normal .nav__link colour in both
+   the transparent (white) and scrolled (dark) states. */
 .nav__link--find-help {
-  color: var(--color-accent-orange) !important;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav__actions {
@@ -461,8 +463,10 @@ blockquote {
 
 .mobile-nav__link:hover { color: var(--color-accent); }
 
+/* 'Find Help' matches the other mobile menu links (no highlight).
+   No color override, so it keeps the standard white .mobile-nav__link colour. */
 .mobile-nav__link--find-help {
-  color: var(--color-accent-light);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 /* --------------------------------------------------------------------------
